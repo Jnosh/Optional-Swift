@@ -1,0 +1,183 @@
+Swift 1.2, -O, Mac Pro
+
+
+---------------------------------------
+n = 10
+Baseline               :  0.09us
+memcpy                 :  0.08us
+assignFrom             :  0.15us
+Array append           :  0.16us
+Array extend           :  0.13us
+Array replace          :  0.10us
+Slice append           :  0.16us
+Slice extend           :  0.15us
+Slice replace          :  0.10us
+ArrayType append       :  6.21us
+ArrayType extend       :  8.34us
+ArrayType replace      :  4.21us
+ArrayType Array        :  0.30us
+ArrayType nativeBuffer :  0.27us
+ArrayType buffer       :  2.51us
+ArrayType withBufferPtr:  1.02us
+ArrayType baseAddress  :  0.37us
+Collection append      :  5.41us
+Collection extend      :  8.07us
+Collection replace     :  4.09us
+Collection Array       :  0.27us
+Sequence append        :  5.42us
+Sequence extend        :  7.87us
+Sequence Array         :  0.27us
+SequenceOf append      :  0.16us
+SequenceOf extend      :  7.02us
+SequenceOf Array       :  1.86us
+---------------------------------------
+---------------------------------------
+n = 100
+Baseline               :  0.04us
+memcpy                 :  0.10us
+assignFrom             :  0.18us
+Array append           :  0.57us
+Array extend           :  0.34us
+Array replace          :  0.18us
+Slice append           :  0.56us
+Slice extend           :  0.37us
+Slice replace          :  0.26us
+ArrayType append       :  50.84us
+ArrayType extend       :  59.64us
+ArrayType replace      :  30.81us
+ArrayType Array        :  0.39us
+ArrayType nativeBuffer :  0.34us
+ArrayType buffer       :  14.59us
+ArrayType withBufferPtr:  1.09us
+ArrayType baseAddress  :  0.43us
+Collection append      :  49.80us
+Collection extend      :  60.19us
+Collection replace     :  30.73us
+Collection Array       :  0.39us
+Sequence append        :  49.85us
+Sequence extend        :  59.57us
+Sequence Array         :  0.39us
+SequenceOf append      :  0.61us
+SequenceOf extend      :  56.20us
+SequenceOf Array       :  3.19us
+---------------------------------------
+---------------------------------------
+n = 1000
+Baseline               :  0.22us
+memcpy                 :  0.27us
+assignFrom             :  0.98us
+Array append           :  4.65us
+Array extend           :  2.54us
+Array replace          :  1.42us
+Slice append           :  4.25us
+Slice extend           :  2.48us
+Slice replace          :  1.77us
+ArrayType append       :  512.11us
+ArrayType extend       :  582.73us
+ArrayType replace      :  297.53us
+ArrayType Array        :  1.68us
+ArrayType nativeBuffer :  1.41us
+ArrayType buffer       :  134.18us
+ArrayType withBufferPtr:  2.21us
+ArrayType baseAddress  :  1.51us
+Collection append      :  493.93us
+Collection extend      :  583.40us
+Collection replace     :  297.36us
+Collection Array       :  1.65us
+Sequence append        :  494.44us
+Sequence extend        :  576.61us
+Sequence Array         :  1.66us
+SequenceOf append      :  4.75us
+SequenceOf extend      :  555.07us
+SequenceOf Array       :  9.21us
+---------------------------------------
+---------------------------------------
+n = 10000
+Baseline               :  10.35us
+memcpy                 :  10.36us
+assignFrom             :  9.60us
+Array append           :  47.52us
+Array extend           :  24.60us
+Array replace          :  14.18us
+Slice append           :  43.61us
+Slice extend           :  24.73us
+Slice replace          :  17.77us
+ArrayType append       :  5200.08us
+ArrayType extend       :  5869.40us
+ArrayType replace      :  2981.65us
+ArrayType Array        :  14.52us
+ArrayType nativeBuffer :  11.97us
+ArrayType buffer       :  1346.94us
+ArrayType withBufferPtr:  13.42us
+ArrayType baseAddress  :  12.58us
+Collection append      :  5020.60us
+Collection extend      :  5875.51us
+Collection replace     :  3081.09us
+Collection Array       :  17.86us
+Sequence append        :  4974.90us
+Sequence extend        :  5779.93us
+Sequence Array         :  14.43us
+SequenceOf append      :  47.60us
+SequenceOf extend      :  5486.05us
+SequenceOf Array       :  91.01us
+---------------------------------------
+---------------------------------------
+n = 100000
+Baseline               :  130.95us
+memcpy                 :  144.37us
+assignFrom             :  98.70us
+Array append           :  780.84us
+Array extend           :  245.75us
+Array replace          :  138.81us
+Slice append           :  460.01us
+Slice extend           :  235.26us
+Slice replace          :  172.79us
+ArrayType append       :  51061.15us
+ArrayType extend       :  57783.22us
+ArrayType replace      :  29787.32us
+ArrayType Array        :  141.88us
+ArrayType nativeBuffer :  106.86us
+ArrayType buffer       :  13607.97us
+ArrayType withBufferPtr:  127.24us
+ArrayType baseAddress  :  123.82us
+Collection append      :  49728.08us
+Collection extend      :  58655.33us
+Collection replace     :  29763.40us
+Collection Array       :  138.44us
+Sequence append        :  49603.36us
+Sequence extend        :  57810.00us
+Sequence Array         :  142.33us
+SequenceOf append      :  793.36us
+SequenceOf extend      :  54936.60us
+SequenceOf Array       :  1083.09us
+---------------------------------------
+---------------------------------------
+n = 1000000
+Baseline               :  3086.28us
+memcpy                 :  3071.17us
+assignFrom             :  5102.55us
+Array append           :  8681.24us
+Array extend           :  5264.32us
+Array replace          :  5344.51us
+Slice append           :  6003.14us
+Slice extend           :  5575.33us
+Slice replace          :  5581.90us
+ArrayType append       :  511280.51us
+ArrayType extend       :  580903.28us
+ArrayType replace      :  300473.67us
+ArrayType Array        :  5069.87us
+ArrayType nativeBuffer :  5154.76us
+ArrayType buffer       :  135942.04us
+ArrayType withBufferPtr:  5293.68us
+ArrayType baseAddress  :  5186.50us
+Collection append      :  504162.96us
+Collection extend      :  585449.30us
+Collection replace     :  299278.54us
+Collection Array       :  4935.46us
+Sequence append        :  498334.93us
+Sequence extend        :  578155.42us
+Sequence Array         :  5046.26us
+SequenceOf append      :  8542.36us
+SequenceOf extend      :  550754.63us
+SequenceOf Array       :  20520.13us
+---------------------------------------
