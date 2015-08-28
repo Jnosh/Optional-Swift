@@ -24,7 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D85AE3281AE7A97700F25614 /* LazyArrayPerf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LazyArrayPerf; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85AE3281AE7A97700F25614 /* LazyArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LazyArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		D85AE32B1AE7A97700F25614 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D85AE3321AE7AD7100F25614 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,7 +51,7 @@
 		D85AE3291AE7A97700F25614 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D85AE3281AE7A97700F25614 /* LazyArrayPerf */,
+				D85AE3281AE7A97700F25614 /* LazyArray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,7 +82,7 @@
 			);
 			name = LazyArray;
 			productName = LazyArrayPerf;
-			productReference = D85AE3281AE7A97700F25614 /* LazyArrayPerf */;
+			productReference = D85AE3281AE7A97700F25614 /* LazyArray */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

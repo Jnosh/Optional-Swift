@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D8104B6D1AC316240045F0BB /* SetPerf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SetPerf; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8104B6D1AC316240045F0BB /* SetRemoveFirst */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SetRemoveFirst; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8104B701AC316240045F0BB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		D8104B6E1AC316240045F0BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8104B6D1AC316240045F0BB /* SetPerf */,
+				D8104B6D1AC316240045F0BB /* SetRemoveFirst */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -79,7 +79,7 @@
 			);
 			name = SetRemoveFirst;
 			productName = SetPerf;
-			productReference = D8104B6D1AC316240045F0BB /* SetPerf */;
+			productReference = D8104B6D1AC316240045F0BB /* SetRemoveFirst */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

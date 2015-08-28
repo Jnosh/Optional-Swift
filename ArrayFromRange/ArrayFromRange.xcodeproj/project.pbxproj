@@ -27,7 +27,7 @@
 /* Begin PBXFileReference section */
 		D8104B271AC2C89A0045F0BB /* Data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Data.txt; sourceTree = SOURCE_ROOT; };
 		D85AE3361AE7B32C00F25614 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		D8E5178F1A8D23C300732898 /* Perf test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Perf test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8E5178F1A8D23C300732898 /* ArrayFromRange */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ArrayFromRange; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8E517921A8D23C300732898 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D8E5179A1A8D2BBD00732898 /* Perf test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Perf test-Bridging-Header.h"; sourceTree = "<group>"; };
 		D8E517A41A8D2EB200732898 /* test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = test.m; path = "../c test/test.m"; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		D8E517901A8D23C300732898 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8E5178F1A8D23C300732898 /* Perf test */,
+				D8E5178F1A8D23C300732898 /* ArrayFromRange */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -89,7 +89,7 @@
 			);
 			name = ArrayFromRange;
 			productName = "Perf test";
-			productReference = D8E5178F1A8D23C300732898 /* Perf test */;
+			productReference = D8E5178F1A8D23C300732898 /* ArrayFromRange */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

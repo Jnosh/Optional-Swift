@@ -28,7 +28,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D8104B311AC2CAF70045F0BB /* GeneratorOfPerf */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GeneratorOfPerf; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8104B311AC2CAF70045F0BB /* AnySequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnySequence; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8104B341AC2CAF70045F0BB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D8104B3D1AC2CC140045F0BB /* Generator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
 		D8104B3F1AC2CC350045F0BB /* DiscreteGeometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscreteGeometry.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		D8104B321AC2CAF70045F0BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8104B311AC2CAF70045F0BB /* GeneratorOfPerf */,
+				D8104B311AC2CAF70045F0BB /* AnySequence */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,7 +94,7 @@
 			);
 			name = AnySequence;
 			productName = GeneratorOfPerf;
-			productReference = D8104B311AC2CAF70045F0BB /* GeneratorOfPerf */;
+			productReference = D8104B311AC2CAF70045F0BB /* AnySequence */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */

@@ -16,4 +16,7 @@
    <FileRef
       location = "group:/Users/janoschhildebrand/Dropbox/Coding/Projects/Experiments/SwiftPerf/SetRemoveFirst/SetRemoveFirst.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Transparent/Transparent.xcodeproj">
+   </FileRef>
 </Workspace>
