@@ -7,58 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D854C1421B95E80400651C6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1411B95E80400651C6D /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1441B95EE5300651C6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1431B95EE5300651C6D /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1461B95F27900651C6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1451B95F27900651C6D /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1521B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1531B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1541B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1551B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1561B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1571B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1581B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1591B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C15A1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C15B1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C15C1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C15D1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C15E1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C15F1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1601B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1611B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1621B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1631B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1641B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1651B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
-		D854C1661B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; settings = {ASSET_TAGS = (); }; };
+		D854C1421B95E80400651C6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1411B95E80400651C6D /* Tests.swift */; };
+		D854C1441B95EE5300651C6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1431B95EE5300651C6D /* Tests.swift */; };
+		D854C1461B95F27900651C6D /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1451B95F27900651C6D /* Tests.swift */; };
+		D854C1521B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1531B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1541B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1551B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1561B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1571B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1581B96123500651C6D /* Testcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C14F1B96123500651C6D /* Testcase.swift */; };
+		D854C1591B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C15A1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C15B1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C15C1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C15D1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C15E1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C15F1B96123500651C6D /* TestcaseResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1501B96123500651C6D /* TestcaseResult.swift */; };
+		D854C1601B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
+		D854C1611B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
+		D854C1621B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
+		D854C1631B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
+		D854C1641B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
+		D854C1651B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
+		D854C1661B96123500651C6D /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = D854C1511B96123500651C6D /* Util.swift */; };
 		D8B251521B93275B00CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251511B93275B00CA7818 /* main.swift */; };
-		D8B251591B9328FD00CA7818 /* Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251581B9328FD00CA7818 /* Local.swift */; settings = {ASSET_TAGS = (); }; };
+		D8B251591B9328FD00CA7818 /* Local.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251581B9328FD00CA7818 /* Local.swift */; };
 		D8B251641B9329AB00CA7818 /* TransparentFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D8B251631B9329AB00CA7818 /* TransparentFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D8B2516C1B932A2200CA7818 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2516B1B932A2200CA7818 /* Framework.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251741B932E1300CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251751B932E1300CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
+		D8B2516C1B932A2200CA7818 /* Framework.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2516B1B932A2200CA7818 /* Framework.swift */; };
+		D8B251741B932E1300CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251751B932E1300CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
 		D8B2517E1B935BB600CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B2517D1B935BB600CA7818 /* main.swift */; };
-		D8B251841B935BE200CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251851B935BE200CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251951B935EC200CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251931B935EC200CA7818 /* main.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251D11B935F1D00CA7818 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251CB1B935F1D00CA7818 /* Sequence.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251D31B935F1D00CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251CD1B935F1D00CA7818 /* main.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251D51B935F1D00CA7818 /* MyAnySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251CF1B935F1D00CA7818 /* MyAnySequence.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251DA1B935F2A00CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251D71B935F2A00CA7818 /* main.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251DB1B935F2A00CA7818 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251D91B935F2A00CA7818 /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E11B935F4800CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251DD1B935F4800CA7818 /* main.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E21B935F4800CA7818 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B251DF1B935F4800CA7818 /* c.m */; settings = {ASSET_TAGS = (); }; };
-		D8B251E41B935F6000CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E51B935F6000CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E61B935F6000CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E71B935F6000CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E81B935F6000CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251E91B935F6000CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251EA1B935F6100CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251EB1B935F6100CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251EC1B935F6100CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; settings = {ASSET_TAGS = (); }; };
-		D8B251ED1B935F6100CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; settings = {ASSET_TAGS = (); }; };
-		D8E7FFD41B94AD6000A081FC /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7FFD31B94AD6000A081FC /* Tests.swift */; settings = {ASSET_TAGS = (); }; };
+		D8B251841B935BE200CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251851B935BE200CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
+		D8B251951B935EC200CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251931B935EC200CA7818 /* main.swift */; };
+		D8B251D11B935F1D00CA7818 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251CB1B935F1D00CA7818 /* Sequence.swift */; };
+		D8B251D31B935F1D00CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251CD1B935F1D00CA7818 /* main.swift */; };
+		D8B251D51B935F1D00CA7818 /* MyAnySequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251CF1B935F1D00CA7818 /* MyAnySequence.swift */; };
+		D8B251DA1B935F2A00CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251D71B935F2A00CA7818 /* main.swift */; };
+		D8B251DB1B935F2A00CA7818 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251D91B935F2A00CA7818 /* Tests.swift */; };
+		D8B251E11B935F4800CA7818 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251DD1B935F4800CA7818 /* main.swift */; };
+		D8B251E21B935F4800CA7818 /* c.m in Sources */ = {isa = PBXBuildFile; fileRef = D8B251DF1B935F4800CA7818 /* c.m */; };
+		D8B251E41B935F6000CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251E51B935F6000CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
+		D8B251E61B935F6000CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251E71B935F6000CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
+		D8B251E81B935F6000CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251E91B935F6000CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
+		D8B251EA1B935F6100CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251EB1B935F6100CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
+		D8B251EC1B935F6100CA7818 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251721B932E1300CA7818 /* Duration.swift */; };
+		D8B251ED1B935F6100CA7818 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B251731B932E1300CA7818 /* Time.swift */; };
+		D8E7FFD41B94AD6000A081FC /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E7FFD31B94AD6000A081FC /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -621,7 +621,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0710;
 				TargetAttributes = {
 					D8B2514D1B93275A00CA7818 = {
 						CreatedOnToolsVersion = 7.0;
@@ -806,7 +806,10 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8B251251B93270C00CA7818 /* Debug.xcconfig */;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -814,6 +817,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8B251271B93270C00CA7818 /* Release.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 			};
 			name = Release;
@@ -822,6 +826,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8B251281B93270C00CA7818 /* Test.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 			};
 			name = Test;
@@ -830,6 +835,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8B251261B93270C00CA7818 /* Profile.xcconfig */;
 			buildSettings = {
+				GCC_NO_COMMON_BLOCKS = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 			};
 			name = Profile;
