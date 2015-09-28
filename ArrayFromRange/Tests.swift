@@ -6,6 +6,14 @@
 //
 //
 
+import Foundation
+
+func mallocTest(n: Int) {
+    let array = malloc(n * sizeof(Int))
+    memset_s(array, n * sizeof(Int), 0, n * sizeof(Int))
+    free(array)
+}
+
 func ptrTest(n: Int) {
     let base = UnsafeMutablePointer<Int>.alloc(n)
     for i in 0..<n {

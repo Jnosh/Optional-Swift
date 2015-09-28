@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Chronos
 
 func testBaseline(n: Int, iterations: Int) -> Duration {
     let source = UnsafeMutablePointer<Int>.alloc(n)

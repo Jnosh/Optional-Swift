@@ -54,6 +54,8 @@ MyClosureAnySequence:      1.010ms
 ==================================
 */
 
+import Chronos
+
 
 let testcases = [baselineTest, generatorSequenceTest, anySequenceTest, myAnySequenceTest, anyGeneratorClosureTest, anyGeneratorTest, myClosureAnySequenceTest, genericSequence, genericGenerator]
 let names = ["Baseline", "GeneratorSequence", "AnySequence", "AnyGenerator", "AnyGenerator Closure", "Generic Sequence", "Generic Generator", "MyAnySequence", "MyClosureAnySequence"]
@@ -72,7 +74,7 @@ for (name, testcase) in zip(names, testcases) {
 }
 
 let resultGroup = TestcaseGroupResult(input: size, results: results)
-print(resultGroup)
+print(resultGroup.description)
 
 
 

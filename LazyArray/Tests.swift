@@ -6,19 +6,20 @@
 //
 //
 
+import Chronos
 
 func baseline(array: Array<Int>) {
-    for _ in array { }
+    for x in array { consumeValue(x) }
 }
 
 func reverseIterate(array: Array<Int>) {
-    for _ in array.reverse() { }
+    for x in array.reverse() { consumeValue(x) }
 }
 
 func arrayReverseIterate(array: Array<Int>) {
-    for _ in Array(array.reverse()) { }
+    for x in Array(array.reverse()) { consumeValue(x) }
 }
 
 func lazyReverseIterate(array: Array<Int>) {
-    for _ in array.lazy.reverse() { }
+    for x in array.lazy.reverse() { consumeValue(x) }
 }

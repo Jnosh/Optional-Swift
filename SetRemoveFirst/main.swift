@@ -19,6 +19,8 @@ FirstRemove:   2.330e+04ms
 ==========================
 */
 
+import Chronos
+
 
 let testcases = [createTest, removeLoop, removeDirect, removeFirst, firstRemove]
 let names = ["Create Set", "RemoveLoop", "RemoveDirect", "RemoveFirst", "FirstRemove"]
@@ -37,4 +39,4 @@ for (name, testcase) in zip(names, testcases) {
 }
 
 let resultGroup = TestcaseGroupResult(input: count, results: results)
-print(resultGroup)
+print(resultGroup.description)

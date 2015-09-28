@@ -55,6 +55,7 @@ Division static local:            9.53µs
 */
 
 import TransparentFramework
+import Chronos
 
 // Clear console
 
@@ -80,9 +81,9 @@ let rotate3 = Stopwatch.time(iterations: iterations) {
     value = value.rotateLocal(staticVal)
 }
 
-print("Rotate baseline:    \(rotate1)")
-print("Rotate transparent: \(rotate2)")
-print("Rotate local:       \(rotate3)")
+print("Rotate baseline:    \(rotate1.description)")
+print("Rotate transparent: \(rotate2.description)")
+print("Rotate local:       \(rotate3.description)")
 
 
 value = 0
@@ -100,9 +101,9 @@ let odd3 = Stopwatch.time(iterations: iterations) {
     value = dynamicVal.oddLocal ? 0 : 1
 }
 
-print("Odd baseline:    \(odd1)")
-print("Odd transparent: \(odd2)")
-print("Odd local:       \(odd3)")
+print("Odd baseline:    \(odd1.description)")
+print("Odd transparent: \(odd2.description)")
+print("Odd local:       \(odd3.description)")
 
 
 
@@ -152,15 +153,15 @@ let division9 = Stopwatch.time(iterations: iterations) {
 }
 
 
-print("Division dynamic baseline:        \(division1)")
-print("Division semi-static baseline:    \(division2)")
-print("Division static baseline:         \(division3)")
-print("Division dynamic transparent:     \(division4)")
-print("Division semi-static transparent: \(division5)")
-print("Division static transparent:      \(division6)")
-print("Division dynamic local:           \(division7)")
-print("Division semi-static local:       \(division8)")
-print("Division static local:            \(division9)")
+print("Division dynamic baseline:        \(division1.description)")
+print("Division semi-static baseline:    \(division2.description)")
+print("Division static baseline:         \(division3.description)")
+print("Division dynamic transparent:     \(division4.description)")
+print("Division semi-static transparent: \(division5.description)")
+print("Division static transparent:      \(division6.description)")
+print("Division dynamic local:           \(division7.description)")
+print("Division semi-static local:       \(division8.description)")
+print("Division static local:            \(division9.description)")
 
 
 
