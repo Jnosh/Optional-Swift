@@ -4,6 +4,37 @@ A collection of Swift microbenchmarks & experiments.
 
 
 
+This project collects Swift microbenchmarks & related experiments.
+Every now and then I try to test the (performance) behaviour of some
+aspect of the Swift compiler. If I manage to reduce it to a small
+testcase & remember to keep it around I'll try to add it here.
+
+**All the usual caveats for microbenchmarks apply.**
+
+* You probably are not measuring what you think you are measuring.
+* Your interpretation of the results is likely tp be wrong.
+* The tests generally degenerate into testing something completely unrelated.
+* Don't expect results to have any impact in real world code.
+* The compiler is your friend.
+* The compiler is your enemy.
+
+
+## Test Results
+
+I try to collect some results with previous versions of the compiler.
+These are mostly for my personal reference so I can see if there were
+any major changes in a new compiler version or if one of the tests
+broke because the compiler figured out that the tests are essentially
+busywork that it can eliminate completely (which in itself is useful
+knowledge).
+
+My current test machines are an iMac12,1 and a MacPro3,1. Your results
+will differ.
+
+## The Tests
+
+TODO: Briefly describe the individual tests.
+
 
 ## LICENSE
 
