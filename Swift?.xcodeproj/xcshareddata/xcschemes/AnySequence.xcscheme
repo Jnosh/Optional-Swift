@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8F35DAC1BB9835C00D3CA9B"
-               BuildableName = "Transparent.app"
-               BlueprintName = "Transparent"
-               ReferencedContainer = "container:SwiftPerf.xcodeproj">
+               BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
+               BuildableName = "AnySequence.app"
+               BlueprintName = "AnySequence"
+               ReferencedContainer = "container:Swift?.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35DAC1BB9835C00D3CA9B"
-            BuildableName = "Transparent.app"
-            BlueprintName = "Transparent"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
+            BuildableName = "AnySequence.app"
+            BlueprintName = "AnySequence"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35DAC1BB9835C00D3CA9B"
-            BuildableName = "Transparent.app"
-            BlueprintName = "Transparent"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
+            BuildableName = "AnySequence.app"
+            BlueprintName = "AnySequence"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35DAC1BB9835C00D3CA9B"
-            BuildableName = "Transparent.app"
-            BlueprintName = "Transparent"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
+            BuildableName = "AnySequence.app"
+            BlueprintName = "AnySequence"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

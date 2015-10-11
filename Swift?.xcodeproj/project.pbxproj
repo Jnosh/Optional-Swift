@@ -800,7 +800,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8B2511D1B9326E700CA7818 /* Build configuration list for PBXProject "SwiftPerf" */;
+			buildConfigurationList = D8B2511D1B9326E700CA7818 /* Build configuration list for PBXProject "Swift?" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -2695,7 +2695,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8B2511D1B9326E700CA7818 /* Build configuration list for PBXProject "SwiftPerf" */ = {
+		D8B2511D1B9326E700CA7818 /* Build configuration list for PBXProject "Swift?" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8B2511E1B9326E700CA7818 /* Debug */,

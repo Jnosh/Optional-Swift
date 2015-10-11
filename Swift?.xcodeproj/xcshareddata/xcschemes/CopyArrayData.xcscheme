@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8F35D4D1BB9830E00D3CA9B"
-               BuildableName = "ArrayFromRange.app"
-               BlueprintName = "ArrayFromRange"
-               ReferencedContainer = "container:SwiftPerf.xcodeproj">
+               BlueprintIdentifier = "D8F35D601BB9833100D3CA9B"
+               BuildableName = "CopyArrayData.app"
+               BlueprintName = "CopyArrayData"
+               ReferencedContainer = "container:Swift?.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35D4D1BB9830E00D3CA9B"
-            BuildableName = "ArrayFromRange.app"
-            BlueprintName = "ArrayFromRange"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D601BB9833100D3CA9B"
+            BuildableName = "CopyArrayData.app"
+            BlueprintName = "CopyArrayData"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35D4D1BB9830E00D3CA9B"
-            BuildableName = "ArrayFromRange.app"
-            BlueprintName = "ArrayFromRange"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D601BB9833100D3CA9B"
+            BuildableName = "CopyArrayData.app"
+            BlueprintName = "CopyArrayData"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35D4D1BB9830E00D3CA9B"
-            BuildableName = "ArrayFromRange.app"
-            BlueprintName = "ArrayFromRange"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D601BB9833100D3CA9B"
+            BuildableName = "CopyArrayData.app"
+            BlueprintName = "CopyArrayData"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

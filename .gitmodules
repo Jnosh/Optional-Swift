@@ -1,6 +1,6 @@
 [submodule "Carthage/Checkouts/xcconfigs"]
 	path = Carthage/Checkouts/xcconfigs
-	url = https://jnosh@bitbucket.org/jnosh/xcconfigs.git
-[submodule "Carthage/Checkouts/chronos"]
-	path = Carthage/Checkouts/chronos
-	url = https://jnosh@bitbucket.org/jnosh/chronos.git
+	url = https://github.com/Jnosh/xcconfigs.git
+[submodule "Carthage/Checkouts/Chronos"]
+	path = Carthage/Checkouts/Chronos
+	url = https://github.com/Jnosh/Chronos.git

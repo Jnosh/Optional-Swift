@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D8F35D861BB9834700D3CA9B"
-               BuildableName = "LazyArray.app"
-               BlueprintName = "LazyArray"
-               ReferencedContainer = "container:SwiftPerf.xcodeproj">
+               BlueprintIdentifier = "D8F35D211BB95EF300D3CA9B"
+               BuildableName = "NSDataFromArray"
+               BlueprintName = "NSDataFromArray"
+               ReferencedContainer = "container:Swift?.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,17 +32,17 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35D861BB9834700D3CA9B"
-            BuildableName = "LazyArray.app"
-            BlueprintName = "LazyArray"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D211BB95EF300D3CA9B"
+            BuildableName = "NSDataFromArray"
+            BlueprintName = "NSDataFromArray"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35D861BB9834700D3CA9B"
-            BuildableName = "LazyArray.app"
-            BlueprintName = "LazyArray"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D211BB95EF300D3CA9B"
+            BuildableName = "NSDataFromArray"
+            BlueprintName = "NSDataFromArray"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D8F35D861BB9834700D3CA9B"
-            BuildableName = "LazyArray.app"
-            BlueprintName = "LazyArray"
-            ReferencedContainer = "container:SwiftPerf.xcodeproj">
+            BlueprintIdentifier = "D8F35D211BB95EF300D3CA9B"
+            BuildableName = "NSDataFromArray"
+            BlueprintName = "NSDataFromArray"
+            ReferencedContainer = "container:Swift?.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
