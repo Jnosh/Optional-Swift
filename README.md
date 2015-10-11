@@ -33,7 +33,51 @@ will differ.
 
 ## The Tests
 
-TODO: Briefly describe the individual tests.
+### AnySequence
+
+A look at the performance characteristics of iterating over SequenceTypes,
+focusing on the cost of "generic" (type eareased) sequences.
+
+Also tests the AnySequence/AnyGenerator [implementations created
+by Rob Napier](https://github.com/rnapier/MyAnySequence).
+
+### ArrayFromRange
+
+A few different ways of initializing an Array with a range of numbers.
+
+### CopyArrayData
+
+A comparison of various ways to copying Array contents.
+
+### LazyArray
+
+Iterating Arrays in reversed order.
+
+### NSDataFromArray
+
+Experiment to create NSData instances from Array contents without
+copying the data.
+
+**Do not actually use this!**
+While it works right now, it is making use of undefined behaviour by
+using a pointer to the array contents outside of *withUnsafeBufferPointer()*.
+
+### SetRemoveFirst
+
+Removing (multiple) elements from Sets by iteratively removing the first
+element is slow. As in orders of magnitude slower than removing them by
+storing the elements separately and using these for removal.
+
+### Transparent
+
+Measuring the performance impact of using the *@transparent* attribute with
+framework functions.
+
+*@transparent* is essentially undocumented but seems to force inlining
+& specialization of functions even when located in frameworks.
+Potentially part of the "secret sauce" used by the Stdlib although
+it seems to be able to do so in more ways & places.
+
 
 
 ## LICENSE
