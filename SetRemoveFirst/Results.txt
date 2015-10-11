@@ -1,0 +1,9 @@
+iMac
+
+================== 100000 ===================
+Create Set:        12.02ms    σ:          0ms
+RemoveLoop:        14.57ms    σ:          0ms
+RemoveDirect:      11.82ms    σ:          0ms
+RemoveFirst:   2.197e+04ms    σ:          0ms
+FirstRemove:   2.115e+04ms    σ:          0ms
+=============================================

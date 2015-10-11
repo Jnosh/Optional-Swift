@@ -6,30 +6,6 @@
 //
 //
 
-
-/*
-Swift 2.0b6
-
-========= 100000 =========
-Create Set:        22.84ms
-RemoveLoop:        25.76ms
-RemoveDirect:      20.64ms
-RemoveFirst:   2.409e+04ms
-FirstRemove:   2.330e+04ms
-==========================
-
-
-
-================== 100000 ===================
-Create Set:        9.135ms    σ:          0ms
-RemoveLoop:        13.81ms    σ:          0ms
-RemoveDirect:      11.51ms    σ:          0ms
-RemoveFirst:   2.413e+04ms    σ:          0ms
-FirstRemove:   2.455e+04ms    σ:          0ms
-=============================================
-
-*/
-
 import Chronos
 
 
