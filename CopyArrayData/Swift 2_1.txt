@@ -1,0 +1,233 @@
+(2.1b3, iMac)
+
+========================== 10 ==========================
+Baseline:                     39.39ns    σ:      87.74ns
+memcpy:                       317.4ns    σ:      20.36ns
+assignFrom:                   317.5ns    σ:      6.994ns
+Array append:                 105.7ns    σ:       10.9ns
+Array extend:                  83.4ns    σ:      6.219ns
+Array replace:                68.65ns    σ:      6.845ns
+Slice append:                 123.4ns    σ:      4.243ns
+Slice extend:                  90.2ns    σ:      3.625ns
+Slice replace:                91.62ns    σ:      5.665ns
+ArrayType append:             125.4ns    σ:      6.104ns
+ArrayType extend:             88.54ns    σ:      6.685ns
+ArrayType replace:            83.94ns    σ:      4.692ns
+ArrayType Array:              83.92ns    σ:      4.525ns
+ArrayType nativeBuffer:       133.2ns    σ:      496.7ns
+ArrayType buffer:             82.37ns    σ:      6.278ns
+ArrayType withBufferPtr:      84.15ns    σ:      5.189ns
+ArrayType baseAddress:         83.2ns    σ:       3.94ns
+Collection append:            123.7ns    σ:      5.001ns
+Collection extend:            88.23ns    σ:      3.143ns
+Collection replace:           83.28ns    σ:      5.103ns
+Collection Array:             84.19ns    σ:      4.991ns
+Sequence append:                126ns    σ:      4.638ns
+Sequence extend:              111.8ns    σ:      5.954ns
+Sequence Array:               83.44ns    σ:      4.486ns
+AnySequence append:            3591ns    σ:      48.88ns
+AnySequence extend:            3486ns    σ:      783.1ns
+AnySequence Array:            209.3ns    σ:      6.809ns
+AnyGenerator append:          220.1ns    σ:      8.252ns
+AnyGenerator extend:            219ns    σ:      3.946ns
+AnyGenerator Array:           220.6ns    σ:      8.286ns
+========================================================
+
+========================= 100 ==========================
+Baseline:                     50.82ns    σ:      6.152ns
+memcpy:                       379.1ns    σ:      11.16ns
+assignFrom:                   375.9ns    σ:       6.28ns
+Array append:                 475.6ns    σ:       1114ns
+Array extend:                 100.5ns    σ:      2.032ns
+Array replace:                177.7ns    σ:      5.483ns
+Slice append:                 400.8ns    σ:      733.7ns
+Slice extend:                 92.92ns    σ:      1.481ns
+Slice replace:                288.9ns    σ:      731.3ns
+ArrayType append:             575.9ns    σ:      795.1ns
+ArrayType extend:               112ns    σ:        5.5ns
+ArrayType replace:            207.4ns    σ:      7.351ns
+ArrayType Array:              207.8ns    σ:      5.702ns
+ArrayType nativeBuffer:       208.3ns    σ:       7.56ns
+ArrayType buffer:             197.4ns    σ:      5.833ns
+ArrayType withBufferPtr:      272.3ns    σ:      752.6ns
+ArrayType baseAddress:        185.3ns    σ:       3.81ns
+Collection append:            453.2ns    σ:      5.779ns
+Collection extend:              103ns    σ:      5.223ns
+Collection replace:           192.3ns    σ:      5.425ns
+Collection Array:             190.9ns    σ:      3.698ns
+Sequence append:              454.6ns    σ:      4.841ns
+Sequence extend:              215.1ns    σ:      2.584ns
+Sequence Array:                 196ns    σ:      6.479ns
+AnySequence append:       3.277e+04ns    σ:       4328ns
+AnySequence extend:       2.931e+04ns    σ:       2468ns
+AnySequence Array:            307.6ns    σ:      6.938ns
+AnyGenerator append:          496.1ns    σ:      18.32ns
+AnyGenerator extend:          494.1ns    σ:      18.04ns
+AnyGenerator Array:           500.8ns    σ:      21.56ns
+========================================================
+
+========================= 1000 =========================
+Baseline:                    0.3005us    σ:     0.7532us
+memcpy:                      0.5412us    σ:   0.008586us
+assignFrom:                  0.5393us    σ:    0.00286us
+Array append:                 3.262us    σ:      1.303us
+Array extend:                0.2631us    σ:   0.003501us
+Array replace:                1.207us    σ:    0.02163us
+Slice append:                 2.936us    σ:    0.01749us
+Slice extend:                0.2712us    σ:   0.004017us
+Slice replace:                1.585us    σ:      0.726us
+ArrayType append:             3.242us    σ:    0.01343us
+ArrayType extend:            0.2285us    σ:   0.004717us
+ArrayType replace:             1.21us    σ:      1.018us
+ArrayType Array:              1.035us    σ:     0.0138us
+ArrayType nativeBuffer:       1.042us    σ:   0.007659us
+ArrayType buffer:             0.985us    σ:   0.006551us
+ArrayType withBufferPtr:     0.9784us    σ:   0.003929us
+ArrayType baseAddress:        1.065us    σ:     0.7357us
+Collection append:            3.822us    σ:    0.03013us
+Collection extend:           0.2681us    σ:    0.01036us
+Collection replace:           1.228us    σ:     0.0185us
+Collection Array:             1.221us    σ:    0.01936us
+Sequence append:              3.843us    σ:     0.2161us
+Sequence extend:              1.188us    σ:   0.009258us
+Sequence Array:               1.224us    σ:    0.01636us
+AnySequence append:           271.7us    σ:      18.86us
+AnySequence extend:           319.4us    σ:      43.08us
+AnySequence Array:            1.392us    σ:    0.03429us
+AnyGenerator append:          3.522us    σ:    0.03324us
+AnyGenerator extend:          3.601us    σ:      1.442us
+AnyGenerator Array:           3.534us    σ:      1.021us
+========================================================
+
+========================= 1000 =========================
+Baseline:                    0.2106us    σ:   0.005356us
+memcpy:                      0.4995us    σ:   0.005005us
+assignFrom:                  0.5792us    σ:     0.7579us
+Array append:                 3.509us    σ:      1.855us
+Array extend:                0.2984us    σ:     0.1393us
+Array replace:                1.297us    σ:    0.01687us
+Slice append:                 3.146us    σ:     0.0197us
+Slice extend:                 0.292us    σ:   0.004861us
+Slice replace:                1.636us    σ:   0.004152us
+ArrayType append:             4.132us    σ:     0.0239us
+ArrayType extend:            0.2889us    σ:   0.004624us
+ArrayType replace:             1.31us    σ:    0.01679us
+ArrayType Array:              1.308us    σ:    0.01351us
+ArrayType nativeBuffer:       1.308us    σ:    0.01526us
+ArrayType buffer:              1.25us    σ:   0.006562us
+ArrayType withBufferPtr:       1.25us    σ:   0.007117us
+ArrayType baseAddress:        1.254us    σ:    0.01183us
+Collection append:            4.215us    σ:    0.01921us
+Collection extend:           0.2876us    σ:   0.003981us
+Collection replace:            1.34us    σ:    0.01627us
+Collection Array:             1.319us    σ:    0.02504us
+Sequence append:              4.137us    σ:    0.02893us
+Sequence extend:              1.275us    σ:   0.007095us
+Sequence Array:               1.319us    σ:    0.01825us
+AnySequence append:           301.7us    σ:      46.06us
+AnySequence extend:           293.3us    σ:      24.11us
+AnySequence Array:            1.391us    σ:    0.04482us
+AnyGenerator append:            3.2us    σ:     0.7672us
+AnyGenerator extend:           2.92us    σ:    0.01386us
+AnyGenerator Array:            2.92us    σ:    0.01443us
+========================================================
+
+======================== 10000 =========================
+Baseline:                     3.669us    σ:     0.8009us
+memcpy:                       3.688us    σ:    0.03761us
+assignFrom:                   3.593us    σ:    0.02782us
+Array append:                 25.34us    σ:      3.842us
+Array extend:                  3.82us    σ:    0.02754us
+Array replace:                10.77us    σ:      1.447us
+Slice append:                 26.49us    σ:      2.289us
+Slice extend:                 4.112us    σ:      1.066us
+Slice replace:                14.63us    σ:      1.161us
+ArrayType append:             36.43us    σ:      3.542us
+ArrayType extend:             3.312us    σ:    0.01595us
+ArrayType replace:            10.45us    σ:      1.236us
+ArrayType Array:              10.99us    σ:      1.783us
+ArrayType nativeBuffer:       10.59us    σ:      1.443us
+ArrayType buffer:             11.17us    σ:      1.889us
+ArrayType withBufferPtr:      10.98us    σ:    0.08995us
+ArrayType baseAddress:        10.95us    σ:     0.0948us
+Collection append:            36.01us    σ:      2.924us
+Collection extend:            3.362us    σ:     0.0318us
+Collection replace:           10.73us    σ:      1.604us
+Collection Array:             11.39us    σ:      2.023us
+Sequence append:              35.97us    σ:      3.142us
+Sequence extend:              11.77us    σ:      4.389us
+Sequence Array:               10.86us    σ:      1.002us
+AnySequence append:            3038us    σ:      719.5us
+AnySequence extend:            2926us    σ:      199.6us
+AnySequence Array:            10.01us    σ:     0.2397us
+AnyGenerator append:          33.18us    σ:     0.8155us
+AnyGenerator extend:          34.66us    σ:      3.006us
+AnyGenerator Array:            33.9us    σ:      1.677us
+========================================================
+
+======================== 100000 ========================
+Baseline:                     58.45us    σ:      13.36us
+memcpy:                       52.81us    σ:      3.709us
+assignFrom:                   53.46us    σ:      4.424us
+Array append:                 260.8us    σ:      21.71us
+Array extend:                 58.84us    σ:      6.108us
+Array replace:                108.7us    σ:      10.59us
+Slice append:                 275.5us    σ:      27.69us
+Slice extend:                 51.97us    σ:    0.06713us
+Slice replace:                125.6us    σ:      8.008us
+ArrayType append:             332.8us    σ:      22.01us
+ArrayType extend:             55.89us    σ:      4.881us
+ArrayType replace:            118.7us    σ:      24.08us
+ArrayType Array:              116.7us    σ:       6.91us
+ArrayType nativeBuffer:       104.6us    σ:      8.546us
+ArrayType buffer:             97.31us    σ:      7.114us
+ArrayType withBufferPtr:      99.87us    σ:      11.73us
+ArrayType baseAddress:        100.1us    σ:      10.37us
+Collection append:            337.3us    σ:      27.49us
+Collection extend:            59.66us    σ:      7.531us
+Collection replace:           101.6us    σ:      6.666us
+Collection Array:             108.5us    σ:      8.252us
+Sequence append:              344.6us    σ:      29.26us
+Sequence extend:              116.4us    σ:      42.67us
+Sequence Array:               138.2us    σ:      31.04us
+AnySequence append:       2.916e+04us    σ:       2151us
+AnySequence extend:       2.833e+04us    σ:       2283us
+AnySequence Array:            102.1us    σ:      6.296us
+AnyGenerator append:          344.3us    σ:       23.2us
+AnyGenerator extend:          344.7us    σ:      23.01us
+AnyGenerator Array:           343.1us    σ:      25.81us
+========================================================
+
+======================= 1000000 ========================
+Baseline:                     1.511ms    σ:     0.1131ms
+memcpy:                       1.471ms    σ:    0.06708ms
+assignFrom:                   1.473ms    σ:    0.06619ms
+Array append:                 2.964ms    σ:     0.3556ms
+Array extend:                 1.477ms    σ:    0.07674ms
+Array replace:                1.684ms    σ:     0.1423ms
+Slice append:                 2.838ms    σ:     0.1799ms
+Slice extend:                  1.47ms    σ:    0.06844ms
+Slice replace:                 1.68ms    σ:     0.1063ms
+ArrayType append:             3.573ms    σ:     0.2451ms
+ArrayType extend:             1.497ms    σ:     0.1033ms
+ArrayType replace:            1.545ms    σ:     0.0659ms
+ArrayType Array:              1.594ms    σ:     0.1113ms
+ArrayType nativeBuffer:       1.578ms    σ:     0.1036ms
+ArrayType buffer:              1.58ms    σ:    0.09106ms
+ArrayType withBufferPtr:      1.615ms    σ:     0.1239ms
+ArrayType baseAddress:        1.631ms    σ:     0.1517ms
+Collection append:            3.987ms    σ:     0.3908ms
+Collection extend:            1.528ms    σ:     0.1042ms
+Collection replace:           1.575ms    σ:    0.07517ms
+Collection Array:             1.599ms    σ:    0.09191ms
+Sequence append:              3.909ms    σ:     0.2232ms
+Sequence extend:              1.616ms    σ:     0.1329ms
+Sequence Array:               1.598ms    σ:      0.107ms
+AnySequence append:           284.6ms    σ:      10.54ms
+AnySequence extend:           285.5ms    σ:      16.78ms
+AnySequence Array:            1.562ms    σ:    0.07258ms
+AnyGenerator append:          3.953ms    σ:       0.38ms
+AnyGenerator extend:          4.389ms    σ:     0.6919ms
+AnyGenerator Array:           4.216ms    σ:     0.5645ms
+========================================================
+

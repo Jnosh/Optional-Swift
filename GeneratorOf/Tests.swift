@@ -1,11 +1,10 @@
 //
 //  Tests.swift
-//  SwiftPerf
+//  AnySequence
 //
 //  Created by Janosch Hildebrand on 01/09/15.
+//  Copyright (c) 2015 Janosch Hildebrand. All rights reserved.
 //
-//
-
 
 func baselineTest(size: DiscreteSize) {
     for _ in size {
@@ -38,35 +37,22 @@ func anyGeneratorClosureTest(size: DiscreteSize) {
 }
 
 
-func sequenceF<S: SequenceType where S.Generator.Element == DiscretePoint>(sequence: S) {
+func sequenceFunc<S: SequenceType where S.Generator.Element == DiscretePoint>(sequence: S) {
     for _ in sequence {
     }
 }
 
 func genericSequence(size: DiscreteSize) {
-    sequenceF(size)
+    sequenceFunc(size)
 }
 
 
-func generateF<G: GeneratorType where G.Element == DiscretePoint>(generator: G) {
+func generateFunc<G: GeneratorType where G.Element == DiscretePoint>(generator: G) {
     for _ in GeneratorSequence(generator) {
     }
 }
 
 func genericGenerator(size: DiscreteSize) {
-    generateF(size.generate())
-}
-
-
-func myAnySequenceTest(size: DiscreteSize) {
-    let anySequence = MyAnySequence(size)
-    for _ in anySequence {
-    }
-}
-
-func myClosureAnySequenceTest(size: DiscreteSize) {
-    let anySequence = MyClosureAnySequence(size)
-    for _ in anySequence {
-    }
+    generateFunc(size.generate())
 }
 

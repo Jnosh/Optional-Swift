@@ -1,0 +1,35 @@
+iMac
+
+WMO:
+Rotate baseline:    41.70ms
+Rotate transparent: 11.02ms
+Rotate local:       10.47ms
+Odd baseline:    414.43ms
+Odd transparent: 303.79µs
+Odd local:       303.79µs
+Division dynamic baseline:        701.30ms
+Division semi-static baseline:    698.23ms
+Division static baseline:         750.68ms
+Division dynamic transparent:     133.66ms
+Division semi-static transparent: 32.25ms
+Division static transparent:      28.00ns
+Division dynamic local:           147.62ms
+Division semi-static local:       31.18ms
+Division static local:            27.00ns
+
+No WMO:
+Rotate baseline:    41.18ms
+Rotate transparent: 11.32ms
+Rotate local:       29.64ms
+Odd baseline:    454.60ms
+Odd transparent: 358.10µs
+Odd local:       425.16ms
+Division dynamic baseline:        806.81ms
+Division semi-static baseline:    755.47ms
+Division static baseline:         744.81ms
+Division dynamic transparent:     136.58ms
+Division semi-static transparent: 33.01ms
+Division static transparent:      34.00ns
+Division dynamic local:           749.34ms
+Division semi-static local:       759.38ms
+Division static local:            762.28ms

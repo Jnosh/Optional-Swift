@@ -7,10 +7,18 @@
 //
 
 import Foundation
+import Chronos
 
+// Replacement for C-code test. Performs essentially identical.
+// For example both Swift & Clang get this down to a no-op without the consumeValue() call.
+// Currently none of the other tests get optimized away without it.
 func mallocTest(n: Int) {
-    let array = malloc(n * sizeof(Int))
-    memset_s(array, n * sizeof(Int), 0, n * sizeof(Int))
+    let array = UnsafeMutablePointer<Int>(malloc(n * sizeof(Int)))
+    for i in 0..<n {
+        array[i] = i
+    }
+
+    consumeValue(array)
     free(array)
 }
 
@@ -19,6 +27,8 @@ func ptrTest(n: Int) {
     for i in 0..<n {
         base[i] = i
     }
+
+    consumeValue(base)
     base.destroy(n)
     base.dealloc(n)
 }
@@ -29,13 +39,19 @@ func appendTest(n: Int) {
     for i in 0..<n {
         array.append(i)
     }
+
+    consumeValue(array)
 }
 
 func mapTest(n: Int) {
     let range = 0..<n
-    let _ = range.map { $0 }
+    let array = range.map { $0 }
+
+    consumeValue(array)
 }
 
 func rangeTest(n: Int) {
-    let _ = Array(0..<n)
+    let array = Array(0..<n)
+
+    consumeValue(array)
 }

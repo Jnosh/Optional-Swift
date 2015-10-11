@@ -1,82 +1,44 @@
 //
 //  main.swift
-//  GeneratorOfPerf
+//  AnySequence
 //
 //  Created by Janosch Hildebrand on 25/03/15.
 //  Copyright (c) 2015 Janosch Hildebrand. All rights reserved.
 //
 
-/* Swift 1.2
-==============================
-Baseline:              8.410ms
-GeneratorSequence:     10.63ms
-AnySequence:           67.48ms
-AnyGenerator:          63.35ms
-Generic Sequence:      10.56ms
-Generic Generator:     10.53ms
-==============================
-
-FMO
-==============================
-Baseline:              3.010ms
-GeneratorSequence:     2.690ms
-AnySequence:           68.64ms
-AnyGenerator:          58.72ms
-Generic Sequence:      3.020ms
-Generic Generator:     2.010ms
-==============================
-*/
-
-/* Swift 2.0b6
-==============================
-Baseline:              3.362ms
-GeneratorSequence:     5.372ms
-AnySequence:           34.06ms
-MyAnySequence:         34.32ms
-AnyGenerator Closure:  26.70ms
-AnyGenerator:          5.376ms
-MyClosureAnySequence:  33.80ms
-Generic Sequence:      5.374ms
-Generic Generator:     5.381ms
-==============================
-
-FMO
-========= [1000 by 1000] =========
-Baseline:                  1.012ms
-GeneratorSequence:         1.109ms
-AnySequence:               34.10ms
-AnyGenerator:              34.46ms
-AnyGenerator Closure:      26.82ms
-Generic Sequence:          1.011ms
-Generic Generator:         1.011ms
-MyAnySequence:             1.010ms
-MyClosureAnySequence:      1.010ms
-==================================
-*/
-
 import Chronos
 
-
-let testcases = [baselineTest, generatorSequenceTest, anySequenceTest, myAnySequenceTest, anyGeneratorClosureTest, anyGeneratorTest, myClosureAnySequenceTest, genericSequence, genericGenerator]
-let names = ["Baseline", "GeneratorSequence", "AnySequence", "AnyGenerator", "AnyGenerator Closure", "Generic Sequence", "Generic Generator", "MyAnySequence", "MyClosureAnySequence"]
 let iterations = 100
 let size = DiscreteSize(width: 1000, height: 1000)
 
 
-var results = [TestcaseResult]()
+// MARK: Stdlib
 
-for (name, testcase) in zip(names, testcases) {
-    let duration = Stopwatch.meanTime(iterations: iterations) {
-        testcase(size)
-    }
-    
-    results.append(TestcaseResult(name: name, time: duration))
-}
+let testcases = [baselineTest, generatorSequenceTest, anySequenceTest, anyGeneratorTest, anyGeneratorClosureTest, genericSequence, genericGenerator]
+let names = ["Baseline", "GeneratorSequence", "AnySequence", "AnyGenerator", "AnyGenerator Closure", "Generic Sequence", "Generic Generator"]
 
-let resultGroup = TestcaseGroupResult(input: size, results: results)
-print(resultGroup.description)
+let resultSwift = runTestcaseGroup(testcases: testcases, names: names, input: size, iterations: iterations)
+print("Stdlib")
+print(resultSwift)
 
 
+// MARK: Local Reimplementations
+
+let localReimplementations = [anySequence_Test, anyGenerator_Test, anyGenerator_ClosureTest, myAnyGeneratorTest, myAnyGeneratorClosureTest, anySequence__Test, anyGenerator__Test, anyGenerator__ClosureTest]
+let reimplementationNames = ["AnySequence_", "AnyGenerator_", "AnyGenerator_ Closure", "MyAnyGenerator", "MyAnyGenerator Closure", "AnySequence__", "AnyGenerator__", "AnyGenerator__ Closure"]
+
+let resultLocal = runTestcaseGroup(testcases: localReimplementations, names: reimplementationNames, input: size, iterations: iterations)
+print("Local")
+print(resultLocal)
+
+
+// MARK: Framework Reimplementations
+
+let frameworkReimplementations = [f_anySequence_Test, f_anyGenerator_Test, f_anyGenerator_ClosureTest, f_myAnyGeneratorTest, f_myAnyGeneratorClosureTest, f_anySequence__Test, f_anyGenerator__Test, f_anyGenerator__ClosureTest]
+
+let resultFramework = runTestcaseGroup(testcases: frameworkReimplementations, names: reimplementationNames, input: size, iterations: iterations)
+print("Framework")
+print(resultFramework)
 
 
 

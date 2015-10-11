@@ -1,6 +1,6 @@
 //
 //  DiscreteGeometry.swift
-//  JHKit
+//  AnySequence
 //
 //  Created by Janosch Hildebrand on 12/02/15.
 //  Copyright (c) 2015 Janosch Hildebrand. All rights reserved.
@@ -54,9 +54,6 @@ extension DiscreteSize : CustomDebugStringConvertible {
         return "[\(width) by \(height)]"
     }
 }
-
-
-
 
 extension DiscreteSize: SequenceType {
     public func generate() -> DiscreteRectPointGenerator {

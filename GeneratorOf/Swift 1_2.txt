@@ -1,0 +1,19 @@
+-O
+==============================
+Baseline:              8.410ms
+GeneratorSequence:     10.63ms
+AnySequence:           67.48ms
+AnyGenerator:          63.35ms
+Generic Sequence:      10.56ms
+Generic Generator:     10.53ms
+==============================
+
+-O + WMO
+==============================
+Baseline:              3.010ms
+GeneratorSequence:     2.690ms
+AnySequence:           68.64ms
+AnyGenerator:          58.72ms
+Generic Sequence:      3.020ms
+Generic Generator:     2.010ms
+==============================

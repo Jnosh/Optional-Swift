@@ -105,3 +105,4 @@ func runTest() {
 printMemoryUsage()
 runTest()
 printMemoryUsage()
+

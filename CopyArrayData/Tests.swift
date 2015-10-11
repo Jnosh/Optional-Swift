@@ -9,14 +9,13 @@
 import Foundation
 import Chronos
 
-func testBaseline(n: Int, iterations: Int) -> Duration {
+func testBaseline(n: Int, iterations: Int) -> [Duration] {
     let source = UnsafeMutablePointer<Int>.alloc(n)
     source.initializeFrom(Repeat(count: n, repeatedValue: 0))
     let target = UnsafeMutablePointer<Int>.alloc(n)
     target.initializeFrom(Repeat(count: n, repeatedValue: 0))
-    
 
-    let duration = Stopwatch.meanTime(iterations: iterations) {
+    let durations = Stopwatch.time(iterations: iterations) {
         target.assignFrom(source, count: n)
     }
 
@@ -25,7 +24,7 @@ func testBaseline(n: Int, iterations: Int) -> Duration {
     target.destroy(n)
     target.dealloc(n)
     
-    return duration
+    return durations
 }
 
 

@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
-               BuildableName = "GeneratorOf.app"
-               BlueprintName = "GeneratorOf"
+               BuildableName = "AnySequence.app"
+               BlueprintName = "AnySequence"
                ReferencedContainer = "container:SwiftPerf.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
-            BuildableName = "GeneratorOf.app"
-            BlueprintName = "GeneratorOf"
+            BuildableName = "AnySequence.app"
+            BlueprintName = "AnySequence"
             ReferencedContainer = "container:SwiftPerf.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
-            BuildableName = "GeneratorOf.app"
-            BlueprintName = "GeneratorOf"
+            BuildableName = "AnySequence.app"
+            BlueprintName = "AnySequence"
             ReferencedContainer = "container:SwiftPerf.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8F35D731BB9833A00D3CA9B"
-            BuildableName = "GeneratorOf.app"
-            BlueprintName = "GeneratorOf"
+            BuildableName = "AnySequence.app"
+            BlueprintName = "AnySequence"
             ReferencedContainer = "container:SwiftPerf.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

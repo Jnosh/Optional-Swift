@@ -1,0 +1,36 @@
+(2.1b3, iMac)
+
+Stdlib
+================== [1000 by 1000] ===================
+Baseline:                  1.009ms    σ:     0.0615ms
+GeneratorSequence:         1.066ms    σ:     0.1413ms
+AnySequence:               22.05ms    σ:     0.6863ms
+AnyGenerator:              0.972ms    σ:    0.06145ms
+AnyGenerator Closure:      17.98ms    σ:      1.759ms
+Generic Sequence:          1.033ms    σ:    0.07186ms
+Generic Generator:         1.033ms    σ:    0.08101ms
+=====================================================
+
+Local
+=================== [1000 by 1000] ====================
+AnySequence_:                1.367ms    σ:    0.09873ms
+AnyGenerator_:               1.041ms    σ:    0.09551ms
+AnyGenerator_ Closure:       18.74ms    σ:      1.287ms
+MyAnyGenerator:              38.24ms    σ:      2.506ms
+MyAnyGenerator Closure:      90.96ms    σ:      4.697ms
+AnySequence__:               1.003ms    σ:    0.09199ms
+AnyGenerator__:              0.984ms    σ:    0.06758ms
+AnyGenerator__ Closure:      18.05ms    σ:      1.068ms
+=======================================================
+
+Framework
+=================== [1000 by 1000] ====================
+AnySequence_:                20.44ms    σ:      1.239ms
+AnyGenerator_:               20.74ms    σ:      2.011ms
+AnyGenerator_ Closure:       73.47ms    σ:      4.394ms
+MyAnyGenerator:              37.45ms    σ:      1.845ms
+MyAnyGenerator Closure:      89.98ms    σ:      7.359ms
+AnySequence__:               56.41ms    σ:      3.325ms
+AnyGenerator__:              56.17ms    σ:      4.807ms
+AnyGenerator__ Closure:      76.33ms    σ:      14.23ms
+=======================================================
