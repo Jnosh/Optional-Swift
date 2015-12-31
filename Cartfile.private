@@ -1,2 +1,2 @@
 git "https://github.com/Jnosh/xcconfigs.git" "master"
-git "https://github.com/Jnosh/Chronos.git" "master"
+git "https://github.com/Jnosh/Chronos.git" "swift2_2"
