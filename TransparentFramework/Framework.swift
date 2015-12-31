@@ -14,14 +14,14 @@ public func roundUpDivision<T: IntegerType>(dividend: T, divisor: T) -> T {
     if rest != 0 {
         switch quotient {
         case let q where q > 0:
-            quotient++
+            quotient += 1 as T
         case let q where q < 0:
-            quotient--
+            quotient -= 1 as T
         default: // 0
             if (dividend > 0 && divisor > 0) || (dividend < 0 && divisor < 0) {
-                quotient++
+                quotient += 1 as T
             } else {
-                quotient--
+                quotient -= 1 as T
             }
         }
     }
@@ -29,21 +29,21 @@ public func roundUpDivision<T: IntegerType>(dividend: T, divisor: T) -> T {
     return quotient
 }
 
-@transparent public func roundUpDivisionTransparent<T: IntegerType>(dividend: T, divisor: T) -> T {
+@_transparent public func roundUpDivisionTransparent<T: IntegerType>(dividend: T, divisor: T) -> T {
     var quotient = dividend / divisor
     let rest = dividend % divisor
     
     if rest != 0 {
         switch quotient {
         case let q where q > 0:
-            quotient++
+            quotient += 1 as T
         case let q where q < 0:
-            quotient--
+            quotient -= 1 as T
         default: // 0
             if (dividend > 0 && divisor > 0) || (dividend < 0 && divisor < 0) {
-                quotient++
+                quotient += 1 as T
             } else {
-                quotient--
+                quotient -= 1 as T
             }
         }
     }
@@ -57,7 +57,7 @@ extension IntegerType {
         return (self & 1) == 1
     }
     
-    @transparent public var oddTransparent: Bool {
+    @_transparent public var oddTransparent: Bool {
         return (self & 1) == 1
     }
 }
@@ -70,7 +70,7 @@ extension Int {
         return (self << factor) | (self >> (-factor & (bits - 1)))
     }
     
-    @transparent public func rotateTransparent(factor: Int) -> Int {
+    @_transparent public func rotateTransparent(factor: Int) -> Int {
         let bits = sizeof(Int) * 8
         precondition(factor < bits)
         

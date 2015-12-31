@@ -25,14 +25,14 @@ public func roundUpDivisionLocal<T: IntegerType>(dividend: T, divisor: T) -> T {
     if rest != 0 {
         switch quotient {
         case let q where q > 0:
-            quotient++
+            quotient += 1 as T
         case let q where q < 0:
-            quotient--
+            quotient -= 1 as T
         default: // 0
             if (dividend > 0 && divisor > 0) || (dividend < 0 && divisor < 0) {
-                quotient++
+                quotient += 1 as T
             } else {
-                quotient--
+                quotient -= 1 as T
             }
         }
     }
