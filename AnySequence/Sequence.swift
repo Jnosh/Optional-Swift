@@ -80,7 +80,7 @@ public struct DiscreteRectPointGenerator: GeneratorType {
     public mutating func next() -> DiscretePoint? {
         if currentX >= maxX {
             currentX = minX
-            currentY++
+            currentY += 1
         }
         
         if currentY >= maxY {
@@ -88,7 +88,7 @@ public struct DiscreteRectPointGenerator: GeneratorType {
         }
         
         let position = DiscretePoint(x: currentX, y: currentY)
-        currentX++
+        currentX += 1
         
         return position
     }

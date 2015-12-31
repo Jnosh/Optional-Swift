@@ -114,8 +114,9 @@ private struct _ClosureBasedSequence<G: GeneratorType>: SequenceType {
 
 public final class AnyGenerator__<Element> : GeneratorType, SequenceType {
     private final let _next: () -> Element?
-    public init<G : GeneratorType where G.Element == Element>(var _ base: G) {
-        _next = { return base.next() }
+    public init<G : GeneratorType where G.Element == Element>(_ base: G) {
+        var _base = base
+        _next = { return _base.next() }
     }
     public init(_ body: () -> Element?) {
         _next = body

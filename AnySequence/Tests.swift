@@ -6,39 +6,47 @@
 //  Copyright (c) 2015 Janosch Hildebrand. All rights reserved.
 //
 
+import Chronos
+
 func baselineTest(size: DiscreteSize) {
-    for _ in size {
+    for p in size {
+        consumeValue(p)
     }
 }
 
 func generatorSequenceTest(size: DiscreteSize) {
     let genseq = GeneratorSequence(size.generate())
-    for _ in genseq {
+    for p in genseq {
+        consumeValue(p)
     }
 }
 
 func anySequenceTest(size: DiscreteSize) {
     let anySequence = AnySequence(size)
-    for _ in anySequence {
+    for p in anySequence {
+        consumeValue(p)
     }
 }
 
 func anyGeneratorTest(size: DiscreteSize) {
-    let generator = anyGenerator(size.generate())
-    for _ in generator {
+    let generator = AnyGenerator(size.generate())
+    for p in generator {
+        consumeValue(p)
     }
 }
 
 func anyGeneratorClosureTest(size: DiscreteSize) {
     var g = size.generate()
-    let generator = anyGenerator( { return g.next() } )
-    for _ in generator {
+    let generator = AnyGenerator(body: { return g.next() } )
+    for p in generator {
+        consumeValue(p)
     }
 }
 
 
 func sequenceFunc<S: SequenceType where S.Generator.Element == DiscretePoint>(sequence: S) {
-    for _ in sequence {
+    for p in sequence {
+        consumeValue(p)
     }
 }
 
@@ -48,7 +56,8 @@ func genericSequence(size: DiscreteSize) {
 
 
 func generateFunc<G: GeneratorType where G.Element == DiscretePoint>(generator: G) {
-    for _ in GeneratorSequence(generator) {
+    for p in GeneratorSequence(generator) {
+        consumeValue(p)
     }
 }
 
