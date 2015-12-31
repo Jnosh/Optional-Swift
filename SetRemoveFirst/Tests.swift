@@ -18,25 +18,29 @@ func createTest(set: Set<Int>) {
     createSet(set.count)
 }
 
-func removeLoop(var set: Set<Int>) {
+func removeLoop(set: Set<Int>) {
+    var set = set
     for element in set {
         set.remove(element)
     }
 }
 
-func removeDirect(var set: Set<Int>) {
+func removeDirect(set: Set<Int>) {
+    var set = set
     for i in 0..<set.count {
         set.remove(i)
     }
 }
 
-func removeFirst(var set: Set<Int>) {
+func removeFirst(set: Set<Int>) {
+    var set = set
     while !set.isEmpty {
         set.removeFirst()
     }
 }
 
-func firstRemove(var set: Set<Int>) {
+func firstRemove(set: Set<Int>) {
+    var set = set
     while !set.isEmpty {
         let first = set.first!
         set.remove(first)
