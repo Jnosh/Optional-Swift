@@ -213,7 +213,7 @@ func anyGeneratorAppend(inout target: Array<Int>, source: Array<Int>) {
     }
     
     target.removeAll(keepCapacity: true)
-    test(&target, source: anyGenerator(source.generate()))
+    test(&target, source: AnyGenerator(source.generate()))
 }
 
 func anyGeneratorExtend(inout target: Array<Int>, source: Array<Int>) {
@@ -222,14 +222,14 @@ func anyGeneratorExtend(inout target: Array<Int>, source: Array<Int>) {
     }
     
     target.removeAll(keepCapacity: true)
-    test(&target, source: anyGenerator(source.generate()))
+    test(&target, source: AnyGenerator(source.generate()))
 }
 
 func anyGeneratorReplaceArray(inout target: Array<Int>, source: Array<Int>) {
     func test(inout target: Array<Int>, source: AnyGenerator<Int>) {
         target.replaceRange(target.indices, with: Array(source))
     }
-    test(&target, source: anyGenerator(source.generate()))
+    test(&target, source: AnyGenerator(source.generate()))
 }
 
 
